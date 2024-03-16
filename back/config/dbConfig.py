@@ -8,7 +8,7 @@ db_config = {
     "database": "*****",
 }
 
-pool = mysql.connector.pooling.MySQLConnectionPool(pool_name="lapassistant_pool", pool_size=5, **db_config)
+pool = mysql.connector.pooling.MySQLConnectionPool(pool_name="*******", pool_size=5, **db_config)
 
 # Get a connection from the pool
 def get_connection():
