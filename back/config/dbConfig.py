@@ -4,8 +4,8 @@ import mysql.connector
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "nishanth15",
-    "database": "lapassistant",
+    "password": "******",
+    "database": "*****",
 }
 
 pool = mysql.connector.pooling.MySQLConnectionPool(pool_name="lapassistant_pool", pool_size=5, **db_config)
